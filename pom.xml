@@ -75,8 +75,12 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<mainClass>one.digitalinnovation.gof.Application</mainClass>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
+
 
 </project>
